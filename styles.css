@@ -3,13 +3,11 @@
         color:blue;
         font-size: 24px;
     }
-
+}
+.index{
     p{
         color:red;
         font-size: 18px;
         font-family: sans-serif;
-        font-variant: no-common-ligeratures;
     }
-
-
 }
