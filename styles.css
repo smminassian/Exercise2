@@ -13,4 +13,46 @@
      font-family: sans-serif;
      font-variant: no-common-ligatures;
 }
-/*5 css properties right now /*
+/*18 css properties right now */
+.page1 ul{
+     list-style-type: square;
+     border: solid;
+     border-color: blue;
+     border-bottom-right-radius: 80px 80px;
+}
+
+.page1{
+     background-color: aqua;
+
+}
+
+@keyframes slidein{
+     from{
+          transform: translateX(0%);
+     }
+     to{
+          transform:translateX(100%);
+     }
+}
+
+.hobbies ul{
+     animation: slidein 3s linear 1s infinite alternate;
+}
+
+.recipe table{
+     border:solid;
+}
+.recipe li::before{
+     content: "";
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     background-image: url("images/fork.png");
+     background-size: cover;
+     margin-right: 6px;
+     
+
+}
+.About cite{
+     text-decoration: underline;
+}
