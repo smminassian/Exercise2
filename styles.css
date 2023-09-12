@@ -1,0 +1,15 @@
+.index{
+    h3{
+        color:blue;
+        font-size: 24px;
+    }
+
+    p{
+        color:red;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-variant: no-common-ligeratures;
+    }
+
+
+}
