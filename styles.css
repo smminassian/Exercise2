@@ -3,17 +3,19 @@
      color:blue;
      font-size: 24px;
      text-align: center;
+     font-optical-sizing: auto;
 
 }
 
 .page1 p{
     
-     color:red;
+     color: red;
      font-size: 18px;
      font-family: sans-serif;
      font-variant: no-common-ligatures;
+     font-optical-sizing: auto;
 }
-/*21 css properties right now */
+/*22 css properties right now */
 .page1 ul{
      list-style-type: square;
      border: solid;
@@ -24,6 +26,11 @@
 .page1{
      background-color: aqua;
 
+}
+
+.page1 label{
+     font-weight: 600;
+     font-optical-sizing: auto;
 }
 
 
@@ -65,4 +72,9 @@
 }
 .About cite{
      text-decoration: underline;
+}
+
+.About img{
+     width: 250px;
+     height: 250px;
 }
