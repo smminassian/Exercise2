@@ -15,6 +15,8 @@
      font-variant: no-common-ligatures;
      font-optical-sizing: auto;
 }
+
+
 /*25 css properties right now */
 .page1 ul{
      list-style-type: square;
@@ -25,6 +27,14 @@
 
 .page1{
      background-color: aqua;
+     transition: width 5s; background: 6s;
+     transition-delay: 3s;
+
+}
+
+.page1:hover{
+     width: 400px;
+     background:yellow;
 
 }
 
