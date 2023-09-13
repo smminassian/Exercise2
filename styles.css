@@ -15,7 +15,7 @@
      font-variant: no-common-ligatures;
      font-optical-sizing: auto;
 }
-/*22 css properties right now */
+/*25 css properties right now */
 .page1 ul{
      list-style-type: square;
      border: solid;
@@ -70,8 +70,17 @@
      
 
 }
+
+.recipe img{
+     width: 250px;
+     height: 250px;
+}
 .About cite{
      text-decoration: underline;
+     text-decoration-color: blue;
+     text-decoration-style: double;
+     text-decoration-thickness: 3px;
+
 }
 
 .About img{
