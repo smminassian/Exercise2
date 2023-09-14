@@ -14,10 +14,15 @@
      font-family: sans-serif;
      font-variant: no-common-ligatures;
      font-optical-sizing: auto;
+     font-variation-settings: 'wght' 850;
+     padding-bottom: 10%;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 10%;
 }
 
 
-/*25 css properties right now */
+/*47 css properties right now */
 .page1 ul{
      list-style-type: square;
      border: solid;
@@ -33,7 +38,6 @@
 }
 
 .page1:hover{
-     width: 400px;
      background:yellow;
 
 }
@@ -43,48 +47,6 @@
      font-optical-sizing: auto;
 }
 
-
-
-
-
-
-
-@keyframes slidein{
-     from{
-          transform: translateX(0%);
-     }
-     to{
-          transform:translateX(100%);
-     }
-}
-
-.hobbies ul{
-     animation: slidein 3s linear 1s infinite alternate;
-}
-
-.hobbies table{
-     border:solid;
-}
-
-.recipe table{
-     border:solid;
-}
-.recipe li::before{
-     content: "";
-     width: 20px;
-     height: 20px;
-     display: inline-block;
-     background-image: url("images/fork.png");
-     background-size: cover;
-     margin-right: 6px;
-     
-
-}
-
-.recipe img{
-     width: 250px;
-     height: 250px;
-}
 .About cite{
      text-decoration: underline;
      text-decoration-color: blue;
@@ -94,6 +56,78 @@
 }
 
 .About img{
+     width: 250px;
+     height: 250px;
+}
+
+.About p{
+     letter-spacing: 1px;
+
+}
+@keyframes slidein{
+     from{
+          transform: translateX(0%);
+     }
+     to{
+          transform:translateX(100%);
+     }
+}
+
+@keyframes curveOut{
+   from{
+     offset-distance: 0%;
+   }  
+   to{
+     offset-distance: 100%;
+   }
+}
+
+.hobbies ul{
+     animation: slidein 3s linear 1s infinite alternate;
+     
+}
+
+.hobbies table{
+     border:solid;
+     border-block-color: blue;
+}
+
+.recipe h4{
+     animation: slidein 4s linear infinite;
+     offset-path: circle(50% at 25% 25%);
+
+}
+.recipe table{
+     border:solid;
+     border-block-start-color: aqua;
+     writing-mode: horizontal-tb;
+     border-block-end-color: brown;
+     writing-mode: vertical-rl;
+}
+.recipe li::before{
+     content: "";
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     background-image: url("images/fork.png");
+     background-size: cover;
+     margin-right: 6px;
+}
+
+
+.recipe h2{
+     font-style: oblique;
+     font-synthesis: none;
+}
+
+.recipe p{
+     font-synthesis-style: auto;
+     font-synthesis-weight: inherit;
+     font-variant-alternates: historical-forms;
+     hanging-punctuation: last;
+}
+
+.recipe img{
      width: 250px;
      height: 250px;
 }
