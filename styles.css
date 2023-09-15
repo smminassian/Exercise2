@@ -107,9 +107,16 @@
 }
 
 
-.recipe li {
-     list-style-type: circle;
+.recipe li::before {
+     content: "";
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     background-image: url("images/fork.png");
+     background-size: cover;
+     margin-right: 6px;
 }
+
 
 .recipe h2 {
      font-style: oblique;
