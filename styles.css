@@ -19,7 +19,7 @@
 }
 
 
-/*43 css properties right now */
+/*45 css properties right now */
 .page1 ul {
      list-style-type: square;
      border: solid;
@@ -30,7 +30,6 @@
 .page1 {
      background-color: aqua;
      transition: width 5s;
-     background: 6s;
      transition-delay: 3s;
 
 }
@@ -72,15 +71,6 @@
      }
 }
 
-@keyframes curveOut {
-     0% {
-          offset-distance: 0%;
-     }
-
-     100% {
-          offset-distance: 100%;
-     }
-}
 
 .hobbies ul {
      animation: slidein 3s linear 1s infinite alternate;
@@ -94,8 +84,6 @@
 
 .recipe h4 {
      animation: slidein 4s linear infinite;
-     offset-path: none;
-
 }
 
 .recipe table {
