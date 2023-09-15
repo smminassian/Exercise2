@@ -34,6 +34,7 @@
 
 }
 
+
 .page1:hover {
      background: yellow;
 
@@ -43,12 +44,23 @@
      font-weight: 600;
 }
 
+.page1 {
+     float: left;
+     width: 60%;
+}
+
+
 .About cite {
      text-decoration: underline;
      text-decoration-color: blue;
      text-decoration-style: double;
      text-decoration-thickness: 3px;
 
+}
+
+.About iframe {
+     width: 100%;
+     height: auto
 }
 
 .About img {
@@ -58,6 +70,33 @@
 
 .About p {
      letter-spacing: 1px;
+
+}
+
+.About {
+     float: left;
+     width: 60%;
+}
+
+.recipe {
+     float: left;
+     width: 60%;
+}
+
+.hobbies {
+     float: left;
+     width: 60%;
+}
+
+@media only screen and (max-weight: 650px) {
+
+     .About,
+     .recipe,
+     .page1,
+     .hobbies {
+          width: 100%;
+     }
+
 
 }
 
